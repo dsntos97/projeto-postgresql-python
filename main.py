@@ -20,3 +20,5 @@ with engine.begin() as conn:
 
     for pessoa in resultado:
         print(pessoa)
+
+print ("PostgreSQL conectado com sucesso")
